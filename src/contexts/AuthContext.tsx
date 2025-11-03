@@ -42,8 +42,8 @@ export function AuthProvider({ children }: AuthProviderProps) {
         }
         setIsLoading(false)
     }
-
-    function handleLogout() {
+// handleLogout - sair da conta 
+    function handleLogout() { 
         setUsuario({
             id: 0,
             nome: "",

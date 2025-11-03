@@ -12,7 +12,7 @@ import { buscar } from "../../../service/Service";
 function ListaPostagens() {
 
     const navigate = useNavigate();
-
+  
     const [isLoading, setIsLoading] = useState<boolean>(false)
 
     const [postagens, setPostagens] = useState<Postagem[]>([])
